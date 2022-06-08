@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f8f8;
+}
+.blanco {
+    color: #4d4d4e;
+    font-weight: bold;
+}
+.mediano {
+    font-size: 18px;
+}
+#fondo {
+    background-color: #5ce1e6;
+}
+.aladerecha { 
+   text-align: right;
+}
+.fuente { 
+    font-family: Verdana;
+}
+.alaizquierda {
+    text-align: left;
+}
+.rayado {
+    text-decoration: none;
+}
+.centro {
+    text-align: center;
+}
+.centrar {
+    background-position: center;
+    background-size: auto;
+}
+#fondo1 {
+    background-color: #5ce1e6;
+}
+header { 
+    display: grid;
+    align-content: space-around;
+    justify-content: right;
+    padding: 2rem 0;
+    border-bottom: 2px solid #5CE1E6;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 200px 500px 200px;
+}
+footer {
+    display: grid;
+    align-content: stretch;
+    justify-content: left;
+    padding: 1rem 0;
+    border-bottom: 2px solid #f8f8f8;
+}
