@@ -1,0 +1,15 @@
+@mixin sizes ($width, $heigth) {
+    heigth: $heigth;
+    width: $width;
+}
+.box {
+    @include sizes(500px, 50px)
+}
+@mixin square($size, $radius: 0) {
+    width: $size;
+    height: $size;
+  
+    @if $radius != 0 {
+      border-radius: $radius;
+    }
+  }

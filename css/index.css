@@ -113,3 +113,34 @@ p {
     height: 700px;
     justify-items: center;
 }    
+h2 {
+    font-size: 20 px;
+    text-align: justify;
+    font-family: verdana;
+    color: black;
+}
+.boton {
+    font-size: 22px;
+    font-family: verdana;
+}
+@mixin sizes ($width, $heigth) {
+    heigth: $heigth;
+    width: $width;
+}
+.box {
+    @include sizes(500px, 50px)
+}
+@mixin square($size, $radius: 0) {
+    width: $size;
+    height: $size;
+  
+    @if $radius != 0 {
+      border-radius: $radius;
+    }
+}
+@media screen and (max-width: 600px) { 
+    .nav a {
+        float: none;
+        width: 100%;
+    }
+} 
