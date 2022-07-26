@@ -68,7 +68,7 @@ footer {
     grid-template-rows: 1fr 1fr;
 } 
 header {
-    background-color: #5ce1e6;
+    background-color: #5CE1E6;
     grid-area: header;
     grid-column: 1/4;
     grid-row: 2 rem;
@@ -106,14 +106,20 @@ div {
 }
 p {
  font-size: 18px;
- text-align: justify;
+ text-align: center;
  font-family: verdana;
  color: #4d4d4e;
 }
-h4 {
+h5 {
     font-size: 18px;
+    text-align: justify;
+    font-family: Verdana;
+    color: #4d4d4e;
+}
+h4 {
+    font-size: 12px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     color: #4d4d4e;
     font-weight: bold;
 }
@@ -127,9 +133,12 @@ h2 {
     text-align: center;
     font-family: verdana;
     color: black;
+    font-weight: bold;
+    width: auto;
+    padding: 20px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     font-family: verdana;
     color: #4d4d4e;
@@ -164,7 +173,7 @@ h3 {
     width: 32px;
     height: auto;
     margin: 0 10px;
-    opacity: .75;
+    opacity: 1;
 }
 .icon img:hover {
     opacity: 1;
